@@ -31,7 +31,7 @@ end
 
 Try out in interactive ruby shell with these commands
 
-- copy code from [raw code](https://github.com/AshakaE/bubble-sort/blob/development/bubble_sort.rb)
+- copy code from [raw code](https://github.com/saimaAnis21/bubble-sort/blob/development/bubblesort.rb)
 - `open terminal or cmd and type 'irb'` **must have ruby installed** 
 - `paste copied code and hit enter`
 
