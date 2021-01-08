@@ -18,6 +18,7 @@ The `#bubble_sort_by` method takes an `array` as an `argument`, and a `block`, a
 sample = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
+```
 ## => ["hi", "hey", "hello"]
 
 ## Built With
