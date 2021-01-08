@@ -15,8 +15,7 @@ def bubble_sort(num_array)
       flag = 1
     end
   end
-  puts 'buble sorting numbers'
-  puts num_array
+  p num_array
 end
 
 bubble_sort([4, 35, 10, 6, 2, 5])
@@ -42,5 +41,4 @@ end
 bubble = bubble_sort_by(%w[hi hello bye ciao adieu yo alo]) do |right, left|
   right.length - left.length
 end
-puts 'buble sorting strings'
-puts bubble
+p bubble
