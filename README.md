@@ -9,7 +9,7 @@ Output Example:
 
 ```ruby
 p bubble_sort([5, 4, 3, 2, 1, 8, 9, 7, 6])
-# => [1, 2, 3, 4, 5, 6, 7, 8, 9]
+## => [1, 2, 3, 4, 5, 6, 7, 8, 9]
 ```
 
 The `#bubble_sort_by` method takes an `array` as an `argument`, and a `block`, and returns the sorted `array`. Output Example:
@@ -18,7 +18,7 @@ The `#bubble_sort_by` method takes an `array` as an `argument`, and a `block`, a
 sample = bubble_sort_by(%w[hi hello hey]) do |left, right|
   left.length - right.length
 end
-# => ["hi", "hey", "hello"]
+## => ["hi", "hey", "hello"]
 
 ## Built With
 
